@@ -1,0 +1,58 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdateitk_vtk_viewer"]("main",{
+
+/***/ "./src/index.js?c170":
+/*!******************************!*\
+  !*** ./src/index-exposed.js ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var ___EXPOSE_LOADER_IMPORT___ = __webpack_require__(/*! -!./index.js */ \"./src/index.js?b635\");\nvar ___EXPOSE_LOADER_GET_GLOBAL_THIS___ = __webpack_require__(/*! ../node_modules/expose-loader/dist/runtime/getGlobalThis.js */ \"./node_modules/expose-loader/dist/runtime/getGlobalThis.js\");\nvar ___EXPOSE_LOADER_GLOBAL_THIS___ = ___EXPOSE_LOADER_GET_GLOBAL_THIS___;\nif (typeof ___EXPOSE_LOADER_GLOBAL_THIS___[\"itkVtkViewer\"] === 'undefined') ___EXPOSE_LOADER_GLOBAL_THIS___[\"itkVtkViewer\"] = ___EXPOSE_LOADER_IMPORT___;else throw new Error('[exposes-loader] The \"itkVtkViewer\" value exists in the global scope, it may not be safe to overwrite it, use the \"override\" option');\nmodule.exports = ___EXPOSE_LOADER_IMPORT___;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXguanM/YzE3MC5qcyIsIm1hcHBpbmdzIjoiQUFBQSxJQUFJQSwwQkFBMEIsR0FBR0MsbUJBQU8sQ0FBQyx5Q0FBYyxDQUFDO0FBQ3hELElBQUlDLG1DQUFtQyxHQUFHRCxtQkFBTyxDQUFDLCtIQUE2RCxDQUFDO0FBQ2hILElBQUlFLCtCQUErQixHQUFHRCxtQ0FBbUM7QUFDekUsSUFBSSxPQUFPQywrQkFBK0IsQ0FBQyxjQUFjLENBQUMsS0FBSyxXQUFXLEVBQUVBLCtCQUErQixDQUFDLGNBQWMsQ0FBQyxHQUFHSCwwQkFBMEIsQ0FBQyxLQUNwSixNQUFNLElBQUlJLEtBQUssQ0FBQyxxSUFBcUksQ0FBQztBQUMzSkMsTUFBTSxDQUFDQyxPQUFPLEdBQUdOLDBCQUEwQiIsInNvdXJjZXMiOlsid2VicGFjazovL2l0ay12dGstdmlld2VyLy4vc3JjL2luZGV4LmpzP2I2MzUiXSwic291cmNlc0NvbnRlbnQiOlsidmFyIF9fX0VYUE9TRV9MT0FERVJfSU1QT1JUX19fID0gcmVxdWlyZShcIi0hLi9pbmRleC5qc1wiKTtcbnZhciBfX19FWFBPU0VfTE9BREVSX0dFVF9HTE9CQUxfVEhJU19fXyA9IHJlcXVpcmUoXCIuLi9ub2RlX21vZHVsZXMvZXhwb3NlLWxvYWRlci9kaXN0L3J1bnRpbWUvZ2V0R2xvYmFsVGhpcy5qc1wiKTtcbnZhciBfX19FWFBPU0VfTE9BREVSX0dMT0JBTF9USElTX19fID0gX19fRVhQT1NFX0xPQURFUl9HRVRfR0xPQkFMX1RISVNfX187XG5pZiAodHlwZW9mIF9fX0VYUE9TRV9MT0FERVJfR0xPQkFMX1RISVNfX19bXCJpdGtWdGtWaWV3ZXJcIl0gPT09ICd1bmRlZmluZWQnKSBfX19FWFBPU0VfTE9BREVSX0dMT0JBTF9USElTX19fW1wiaXRrVnRrVmlld2VyXCJdID0gX19fRVhQT1NFX0xPQURFUl9JTVBPUlRfX187XG5lbHNlIHRocm93IG5ldyBFcnJvcignW2V4cG9zZXMtbG9hZGVyXSBUaGUgXCJpdGtWdGtWaWV3ZXJcIiB2YWx1ZSBleGlzdHMgaW4gdGhlIGdsb2JhbCBzY29wZSwgaXQgbWF5IG5vdCBiZSBzYWZlIHRvIG92ZXJ3cml0ZSBpdCwgdXNlIHRoZSBcIm92ZXJyaWRlXCIgb3B0aW9uJylcbm1vZHVsZS5leHBvcnRzID0gX19fRVhQT1NFX0xPQURFUl9JTVBPUlRfX187XG4iXSwibmFtZXMiOlsiX19fRVhQT1NFX0xPQURFUl9JTVBPUlRfX18iLCJyZXF1aXJlIiwiX19fRVhQT1NFX0xPQURFUl9HRVRfR0xPQkFMX1RISVNfX18iLCJfX19FWFBPU0VfTE9BREVSX0dMT0JBTF9USElTX19fIiwiRXJyb3IiLCJtb2R1bGUiLCJleHBvcnRzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/index.js?c170\n");
+
+/***/ }),
+
+/***/ "./package.json":
+/*!**********************!*\
+  !*** ./package.json ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"name":"itk-vtk-viewer","version":"0.0.0-semantically-release","description":"Web-based image, mesh, and point set viewer","keywords":["3d","visualization","webgl","medical","scientific","itk","vtk","image","geometry","point cloud","mesh","gl-vis","volume","graphics"],"repository":{"type":"git","url":"https://github.com/kitware/itk-vtk-viewer.git"},"license":"BSD-3-Clause","bugs":{"url":"https://github.com/kitware/itk-vtk-viewer/issues"},"homepage":"https://kitware.github.io/itk-vtk-viewer/","main":"./dist/itkVtkViewer.js","types":"./src/index.d.ts","dependencies":{"@kitware/vtk.js":"^29.4.6","@material/web":"^1.0.1","@thewtex/iconselect.js":"^2.1.2","@xstate/inspect":"^0.4.1","axios":"^1.6.0","commander":"^2.20.3","core-js":"^3.36.0","css-element-queries":"^1.2.3","curry":"^1.2.0","eventemitter3":"^4.0.7","express":"^4.17.1","gl-matrix":"^3.4.3","itk-image-io":"^1.0.0-b.84","itk-mesh-io":"^1.0.0-b.84","itk-viewer-color-maps":"^1.2.0","itk-viewer-transfer-function-editor":"^1.6.0","itk-wasm":"^1.0.0-b.83","mobx":"^5.15.7","mousetrap":"^1.6.5","open":"^6.4.0","p-queue":"^7.3.0","promise-file-reader":"^1.0.3","promise.any":"^2.0.2","regenerator-runtime":"^0.13.7","vtk.js":"^29.4.6","webworker-promise":"^0.4.2","xstate":"^4.37.0"},"devDependencies":{"@babel/plugin-proposal-class-properties":"^7.18.6","@babel/plugin-transform-runtime":"^7.13.6","@babel/preset-env":"^7.13.5","@babel/runtime":"^7.13.6","@rollup/plugin-babel":"^5.3.0","@rollup/plugin-commonjs":"^21.0.2","@rollup/plugin-node-resolve":"^13.0.0","@rollup/plugin-typescript":"^9.0.2","@web3-storage/w3":"^2.6.0","autoprefixer":"^10.2.6","babel-loader":"^8.2.2","babel-plugin-istanbul":"^6.0.0","babel-preset-mobx":"^2.0.0","buffer":"^6.0.3","copy-webpack-plugin":"^9.0.1","css-loader":"^5.0.2","es-abstract":"1.18.0-next.1","eslint":"^8.13.0","eslint-config-prettier":"^8.5.0","expose-loader":"^1.0.3","husky":"^4.3.7","imjoy-core":"^0.14.5","is-buffer":"^2.0.5","karma":"^6.3.16","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-junit-reporter":"^2.0.1","karma-tap":"^4.2.0","karma-tap-pretty-reporter":"^4.2.0","karma-webpack":"5.0.0","kw-doc":"^3.0.6","lint-staged":"^10.5.4","ndarray":"^1.0.19","npm-run-all":"^4.1.5","pixelmatch":"^5.2.1","postcss":"^8.3.5","postcss-loader":"^4.1.0","prettier":"^1.19.1","process":"^0.11.10","puppeteer":"^5.0.0","raw-loader":"^4.0.2","readable-stream":"^3.6.0","request":"^2.88.2","resemblejs":"^4.1.0","rollup":"^2.52.7","rollup-plugin-ignore":"^1.0.10","rollup-plugin-postcss":"^4.0.0","rollup-plugin-svgo":"^2.0.0","semantic-release":"^19.0.3","sockjs-client":"^1.5.0","stream-browserify":"^3.0.0","style-loader":"^2.0.0","tap-spec":"^5.0.0","tape":"^5.2.0","tape-catch":"^1.0.6","typescript":"^5.3.3","webpack":"^5.65.0","webpack-cli":"^4.8.0","webpack-dev-server":"^4.7.4","webpackbar":"^5.0.0-3","workbox-build":"^6.5.1","workbox-webpack-plugin":"^6.5.1","worker-loader":"^3.0.8"},"scripts":{"doc":"kw-doc -c ./doc/config.js","doc:www":"kw-doc -c ./doc/config.js -s","doc:publish":"kw-doc -c ./doc/config.js -mp","build":"npm-run-all build:release build:ui","build:debug":"webpack --progress --color --mode development","build:release":"webpack --progress --color --mode production","build:ui":"node ./buildUI.js","build:test-ui":"rollup -c ./test/test-ui-rollup.config.js","prepack":"npm run build","bundle":"StandaloneHTML ./dist/index.html ./dist/ItkVtkViewer.html","commit":"git cz","format":"prettier --write src/UserInterface/**/*.js src/*.js","lint:types":"tsc --noEmit","start":"webpack serve --mode development --static ./dist/ --open --port 8082","dev":"webpack serve --mode development --static ./dist/ --port 8085","semantic-release":"semantic-release","test":"npm run test:downloadData && npm run lint:types && npm run build:test-ui && karma start ./karma.conf.js --browsers Chrome_without_sandbox,Firefox","test:downloadData":"node test/downloadData.mjs","test:headless":"./test/run.sh","test:headless-debug":"./test/run.sh -d","test:debug":"npm run build:test-ui && karma start ./karma.conf.js --no-single-run"},"config":{"commitizen":{"path":"cz-conventional-changelog"}},"bin":{"itk-vtk-viewer":"./bin/itk-vtk-viewer-cli.js"},"husky":{"hooks":{"pre-commit":"lint-staged"}},"lint-staged":{"*.js":"prettier --write"}}');
+
+/***/ })
+
+},
+/******/ function(__webpack_require__) { // webpackRuntimeModules
+/******/ /* webpack/runtime/get javascript chunk filename */
+/******/ (() => {
+/******/ 	// This function allow to reference async chunks
+/******/ 	__webpack_require__.u = (chunkId) => {
+/******/ 		// return url for filenames based on template
+/******/ 		return "" + chunkId + ".itkVtkViewer.js";
+/******/ 	};
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/get javascript update chunk filename */
+/******/ (() => {
+/******/ 	// This function allow to reference all chunks
+/******/ 	__webpack_require__.hu = (chunkId) => {
+/******/ 		// return url for filenames based on template
+/******/ 		return "" + chunkId + "." + __webpack_require__.h() + ".hot-update.js";
+/******/ 	};
+/******/ })();
+/******/ 
+/******/ /* webpack/runtime/getFullHash */
+/******/ (() => {
+/******/ 	__webpack_require__.h = () => ("042b6e4b1153bf10947d")
+/******/ })();
+/******/ 
+/******/ }
+);

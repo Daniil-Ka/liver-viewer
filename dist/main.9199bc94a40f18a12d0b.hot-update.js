@@ -1,0 +1,30 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdateitk_vtk_viewer"]("main",{
+
+/***/ "./src/Rendering/VTKJS/Images/applyPiecewiseFunction.js":
+/*!**************************************************************!*\
+  !*** ./src/Rendering/VTKJS/Images/applyPiecewiseFunction.js ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction applyPiecewiseFunction(context, event) {\n  var _context$images$piece;\n  var name = event.data.name;\n  var component = event.data.component;\n  // const range = event.data.range\n  var nodes = event.data.nodes;\n  var actorContext = context.images.actorContext.get(name);\n  var image = actorContext.image;\n  var pwf = (_context$images$piece = context.images.piecewiseFunctions) === null || _context$images$piece === void 0 ? void 0 : _context$images$piece.get(component);\n  if (pwf && image) {\n    var slicePiecewiseFunction = pwf.slice;\n    var volumePiecewiseFunction = pwf.volume;\n    volumePiecewiseFunction.setNodes(nodes);\n    var sliceNodes = nodes.length > 2 ? nodes.slice(1, -1) : nodes; // if more than 2, remove \"window\" nodes with y = 0\n\n    sliceNodes = [];\n    slicePiecewiseFunction.setNodes(sliceNodes);\n    console.log(sliceNodes);\n    context.service.send('RENDER');\n  }\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (applyPiecewiseFunction);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvUmVuZGVyaW5nL1ZUS0pTL0ltYWdlcy9hcHBseVBpZWNld2lzZUZ1bmN0aW9uLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFBQSxTQUFTQSxzQkFBc0JBLENBQUNDLE9BQU8sRUFBRUMsS0FBSyxFQUFFO0VBQUEsSUFBQUMscUJBQUE7RUFDOUMsSUFBTUMsSUFBSSxHQUFHRixLQUFLLENBQUNHLElBQUksQ0FBQ0QsSUFBSTtFQUM1QixJQUFNRSxTQUFTLEdBQUdKLEtBQUssQ0FBQ0csSUFBSSxDQUFDQyxTQUFTO0VBQ3RDO0VBQ0EsSUFBTUMsS0FBSyxHQUFHTCxLQUFLLENBQUNHLElBQUksQ0FBQ0UsS0FBSztFQUU5QixJQUFNQyxZQUFZLEdBQUdQLE9BQU8sQ0FBQ1EsTUFBTSxDQUFDRCxZQUFZLENBQUNFLEdBQUcsQ0FBQ04sSUFBSSxDQUFDO0VBQzFELElBQU1PLEtBQUssR0FBR0gsWUFBWSxDQUFDRyxLQUFLO0VBRWhDLElBQU1DLEdBQUcsSUFBQVQscUJBQUEsR0FBR0YsT0FBTyxDQUFDUSxNQUFNLENBQUNJLGtCQUFrQixjQUFBVixxQkFBQSx1QkFBakNBLHFCQUFBLENBQW1DTyxHQUFHLENBQUNKLFNBQVMsQ0FBQztFQUM3RCxJQUFJTSxHQUFHLElBQUlELEtBQUssRUFBRTtJQUNoQixJQUFNRyxzQkFBc0IsR0FBR0YsR0FBRyxDQUFDRyxLQUFLO0lBQ3hDLElBQU1DLHVCQUF1QixHQUFHSixHQUFHLENBQUNLLE1BQU07SUFFMUNELHVCQUF1QixDQUFDRSxRQUFRLENBQUNYLEtBQUssQ0FBQztJQUV2QyxJQUFJWSxVQUFVLEdBQUdaLEtBQUssQ0FBQ2EsTUFBTSxHQUFHLENBQUMsR0FBR2IsS0FBSyxDQUFDUSxLQUFLLENBQUMsQ0FBQyxFQUFFLENBQUMsQ0FBQyxDQUFDLEdBQUdSLEtBQUssRUFBRTs7SUFFaEVZLFVBQVUsR0FBRyxFQUFFO0lBRWZMLHNCQUFzQixDQUFDSSxRQUFRLENBQUNDLFVBQVUsQ0FBQztJQUUzQ0UsT0FBTyxDQUFDQyxHQUFHLENBQUNILFVBQVUsQ0FBQztJQUV2QmxCLE9BQU8sQ0FBQ3NCLE9BQU8sQ0FBQ0MsSUFBSSxDQUFDLFFBQVEsQ0FBQztFQUNoQztBQUNGO0FBRUEsaUVBQWV4QixzQkFBc0IiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9pdGstdnRrLXZpZXdlci8uL3NyYy9SZW5kZXJpbmcvVlRLSlMvSW1hZ2VzL2FwcGx5UGllY2V3aXNlRnVuY3Rpb24uanM/NTE1YyJdLCJzb3VyY2VzQ29udGVudCI6WyJmdW5jdGlvbiBhcHBseVBpZWNld2lzZUZ1bmN0aW9uKGNvbnRleHQsIGV2ZW50KSB7XG4gIGNvbnN0IG5hbWUgPSBldmVudC5kYXRhLm5hbWVcbiAgY29uc3QgY29tcG9uZW50ID0gZXZlbnQuZGF0YS5jb21wb25lbnRcbiAgLy8gY29uc3QgcmFuZ2UgPSBldmVudC5kYXRhLnJhbmdlXG4gIGNvbnN0IG5vZGVzID0gZXZlbnQuZGF0YS5ub2Rlc1xuXG4gIGNvbnN0IGFjdG9yQ29udGV4dCA9IGNvbnRleHQuaW1hZ2VzLmFjdG9yQ29udGV4dC5nZXQobmFtZSlcbiAgY29uc3QgaW1hZ2UgPSBhY3RvckNvbnRleHQuaW1hZ2VcblxuICBjb25zdCBwd2YgPSBjb250ZXh0LmltYWdlcy5waWVjZXdpc2VGdW5jdGlvbnM/LmdldChjb21wb25lbnQpXG4gIGlmIChwd2YgJiYgaW1hZ2UpIHtcbiAgICBjb25zdCBzbGljZVBpZWNld2lzZUZ1bmN0aW9uID0gcHdmLnNsaWNlXG4gICAgY29uc3Qgdm9sdW1lUGllY2V3aXNlRnVuY3Rpb24gPSBwd2Yudm9sdW1lXG5cbiAgICB2b2x1bWVQaWVjZXdpc2VGdW5jdGlvbi5zZXROb2Rlcyhub2RlcylcblxuICAgIGxldCBzbGljZU5vZGVzID0gbm9kZXMubGVuZ3RoID4gMiA/IG5vZGVzLnNsaWNlKDEsIC0xKSA6IG5vZGVzICAvLyBpZiBtb3JlIHRoYW4gMiwgcmVtb3ZlIFwid2luZG93XCIgbm9kZXMgd2l0aCB5ID0gMFxuXG4gICAgc2xpY2VOb2RlcyA9IFtdXG5cbiAgICBzbGljZVBpZWNld2lzZUZ1bmN0aW9uLnNldE5vZGVzKHNsaWNlTm9kZXMpXG5cbiAgICBjb25zb2xlLmxvZyhzbGljZU5vZGVzKVxuXG4gICAgY29udGV4dC5zZXJ2aWNlLnNlbmQoJ1JFTkRFUicpXG4gIH1cbn1cblxuZXhwb3J0IGRlZmF1bHQgYXBwbHlQaWVjZXdpc2VGdW5jdGlvblxuIl0sIm5hbWVzIjpbImFwcGx5UGllY2V3aXNlRnVuY3Rpb24iLCJjb250ZXh0IiwiZXZlbnQiLCJfY29udGV4dCRpbWFnZXMkcGllY2UiLCJuYW1lIiwiZGF0YSIsImNvbXBvbmVudCIsIm5vZGVzIiwiYWN0b3JDb250ZXh0IiwiaW1hZ2VzIiwiZ2V0IiwiaW1hZ2UiLCJwd2YiLCJwaWVjZXdpc2VGdW5jdGlvbnMiLCJzbGljZVBpZWNld2lzZUZ1bmN0aW9uIiwic2xpY2UiLCJ2b2x1bWVQaWVjZXdpc2VGdW5jdGlvbiIsInZvbHVtZSIsInNldE5vZGVzIiwic2xpY2VOb2RlcyIsImxlbmd0aCIsImNvbnNvbGUiLCJsb2ciLCJzZXJ2aWNlIiwic2VuZCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/Rendering/VTKJS/Images/applyPiecewiseFunction.js\n");
+
+/***/ })
+
+},
+/******/ function(__webpack_require__) { // webpackRuntimeModules
+/******/ /* webpack/runtime/getFullHash */
+/******/ (() => {
+/******/ 	__webpack_require__.h = () => ("9e6a93a33afe3d81ec50")
+/******/ })();
+/******/ 
+/******/ }
+);
