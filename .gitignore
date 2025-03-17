@@ -6,7 +6,10 @@ yarn.lock
 npm-debug.log
 node_modules
 Data
-
+dist/
+!dist/index.html
+!dist/manifest.json
+!dist/favicon-32x32.png
 coverage/
 test/output.html
 test/TESTS-*.xml
