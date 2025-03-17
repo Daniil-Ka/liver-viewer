@@ -11230,7 +11230,7 @@ function IconSelect($$elementID, $$element, $$parameters) {
 
   _View.createUI = function($parameters) {
     /* HTML MODEL
-        
+
         <div id="my-icon-select" class="icon-select">
             <div class="selected-box">
                 <div class="selected-icon"><img src="images/icons/i2.png"></div>
@@ -11249,7 +11249,7 @@ function IconSelect($$elementID, $$element, $$parameters) {
                 </div>
             </div>
         </div>
-        
+
         */
 
     _View.clearUI()
@@ -11341,10 +11341,10 @@ function IconSelect($$elementID, $$element, $$parameters) {
   }
 
   _View.createIcon = function($iconFilePath, $iconValue, $index, $parameters) {
-    /* HTML MODEL 
-         
+    /* HTML MODEL
+
          <div class="icon"><img src="images/icons/i1.png"></div>
-         
+
          */
 
     var iconElement = document.createElement('div')
@@ -18878,6 +18878,10 @@ ColorMaps.set('US-Fetal', {
 })
 
 const ColorMapIcons = new Map()
+ColorMapIcons.set(
+  'Soft + Skin',
+  'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAFCAYAAAAZiY8XAAAAAXNSR0IArs4c6QAAAMZJREFUOE/lk1FOAzEMRJ8T22mbHqtH6P3PQbsbB2UDrSqEBAiQEB+jmSRfo7yRk5x78oIUR9zBbcqM7gqWCVO6JcJHToQJoTL9lpl3OhzCoL9mveeufXsfPsRNQdIga6DaMG24NoqulLyy05VdXtjrwiFf2eeFmi9brumy6ZiHP3GUl3O6UqVRRajJOEhBTnKO/1a4fbiwZZon+h//4fXdwqawYfw1pCe6E/G7fzPSOrD9HNLLm8I2d/yTG46H/Y4t/86GnwGuqRIzRB2bAgAAAABJRU5ErkJggg=='
+)
 ColorMapIcons.set(
   'Viridis (matplotlib)',
   'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAFCAYAAAAZiY8XAAAAAXNSR0IArs4c6QAAAMZJREFUOE/lk1FOAzEMRJ8T22mbHqtH6P3PQbsbB2UDrSqEBAiQEB+jmSRfo7yRk5x78oIUR9zBbcqM7gqWCVO6JcJHToQJoTL9lpl3OhzCoL9mveeufXsfPsRNQdIga6DaMG24NoqulLyy05VdXtjrwiFf2eeFmi9brumy6ZiHP3GUl3O6UqVRRajJOEhBTnKO/1a4fbiwZZon+h//4fXdwqawYfw1pCe6E/G7fzPSOrD9HNLLm8I2d/yTG46H/Y4t/86GnwGuqRIzRB2bAgAAAABJRU5ErkJggg=='
