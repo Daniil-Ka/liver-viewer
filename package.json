@@ -138,7 +138,7 @@
     "format": "prettier --write src/UserInterface/**/*.js src/*.js",
     "lint:types": "tsc --noEmit",
     "start": "webpack serve --mode development --static ./dist/ --open --port 8082",
-    "dev": "webpack serve --mode development --static ./dist/ --port 8082",
+    "dev": "webpack serve --mode development --static ./dist/ --port 8085",
     "semantic-release": "semantic-release",
     "test": "npm run test:downloadData && npm run lint:types && npm run build:test-ui && karma start ./karma.conf.js --browsers Chrome_without_sandbox,Firefox",
     "test:downloadData": "node test/downloadData.mjs",

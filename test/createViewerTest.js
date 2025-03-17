@@ -592,7 +592,7 @@ test('Test createViewer custom UI options', async t => {
   webWorker.terminate()
 
   const referenceUIUrl = new URL(
-    '/base/src/UI/reference-ui/dist/referenceUIMachineOptions.js',
+    '/base/src/UI/reference-ui/distribute/referenceUIMachineOptions.js',
     document.location.origin
   )
   const referenceUIMachineOptionsHref = { href: referenceUIUrl.href }
