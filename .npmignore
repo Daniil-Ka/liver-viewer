@@ -1,0 +1,16 @@
+.DS_Store
+.gitmodules
+.npmrc
+.sass-cache
+.travis.yml
+doc
+npm-debug.log
+src/UI/reference-ui/node_modules
+src/Compression/blosc-zarr
+test
+src/Compression/blosc-zarr/web-build
+src/IO/Downsample/web-build
+.github
+dist/itk/image-io/node_modules
+dist/itk/mesh-io/node_modules
+dist/*.map

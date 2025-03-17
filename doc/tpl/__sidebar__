@@ -1,0 +1,9 @@
+docs:
+  getting_started:
+    overview: index.html
+    viewer: viewer.html
+    cli: cli.html
+    embeddedViewer: embeddedViewer.html
+    imjoy: imjoy.html
+    shortcuts: shortcuts.html
+    customizeUI: customizeUI.html

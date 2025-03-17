@@ -1,0 +1,52 @@
+{
+  "name": "itk-viewer-reference-ui",
+  "version": "11.11.2",
+  "description": "Reference UI for itk-viewer",
+  "module": "dist/referenceUIMachineOptions.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "dev": "rollup -w -c rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kitware/itk-vtk-viewer.git"
+  },
+  "keywords": [
+    "vanilla",
+    "ui",
+    "itk-viewer"
+  ],
+  "author": "Matt McCormick",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Kitware/itk-vtk-viewer/issues"
+  },
+  "homepage": "https://github.com/Kitware/itk-vtk-viewer#readme",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.21.0",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@rollup/plugin-commonjs": "^21.0.2",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@rollup/plugin-typescript": "^9.0.2",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "rollup": "^2.70.1",
+    "rollup-plugin-ignore": "^1.0.10",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-svgo": "^2.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.17.6",
+    "@itk-viewer/icons": "^11.14.1",
+    "@lit-labs/context": "^0.2.0",
+    "@material/web": "1.0.1",
+    "itk-viewer-color-maps": "^1.2.0",
+    "itk-viewer-transfer-function-editor": "^1.6.0",
+    "lit": "^2.4.0",
+    "xstate-lit": "^1.3.1"
+  }
+}
