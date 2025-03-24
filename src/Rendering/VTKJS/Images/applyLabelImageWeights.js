@@ -6,7 +6,6 @@ function applyLabelImageWeights(context, event) {
   const name = event.data.name
   const actorContext = context.images.actorContext.get(name)
   const labelImageWeights = actorContext.labelImageWeights
-
   let piecewiseFunction = null
   if (!context.images.piecewiseFunctions.has('labelImage')) {
     piecewiseFunction = vtkPiecewiseFunction.newInstance()

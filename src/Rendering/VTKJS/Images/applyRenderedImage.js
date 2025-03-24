@@ -170,6 +170,58 @@ function applyRenderedImage(context, { data: { name } }) {
         slice: vtkPiecewiseFunction.newInstance(),
         volume: vtkPiecewiseFunction.newInstance(),
       }
+      // let newNodes = [
+      //   {
+      //     "x": -643.78106689453125,
+      //     "y": 0.0,
+      //     "midpoint": 0.5,
+      //     "sharpness": 0
+      //   },
+      //   {
+      //     "x": -584.65887451171875,
+      //     "y": 0.26931655406951904,
+      //     "midpoint": 0.5,
+      //     "sharpness": 0
+      //   },
+      //   {
+      //     "x": -382.65924072265625,
+      //     "y": 0.46969130635261536,
+      //     "midpoint": 0.5,
+      //     "sharpness": 0
+      //   },
+      //   {
+      //     "x": -237.65838623046875,
+      //     "y": 0.51899993419647217,
+      //     "midpoint": 0.5,
+      //     "sharpness": 0
+      //   },
+      //   {
+      //     "x": -75.40606689453125,
+      //     "y": 0.0,
+      //     "midpoint": 0.5,
+      //     "sharpness": 0
+      //   },
+      //   {
+      //     "x": 114.5941162109375,
+      //     "y": 0.27931660413742065,
+      //     "midpoint": 0.5,
+      //     "sharpness": 0
+      //   },
+      //   {
+      //     "x": 316.5936279296875,
+      //     "y": 0.28899994492530823,
+      //     "midpoint": 0.5,
+      //     "sharpness": 0
+      //   },
+      //   {
+      //     "x": 461.59375,
+      //     "y": 0.28899994492530823,
+      //     "midpoint": 0.5,
+      //     "sharpness": 0
+      //   },
+      //   ]
+      //piecewiseFunction.volume.setNodes(newNodes)
+      //console.log(2)
       context.images.piecewiseFunctions.set(component, piecewiseFunction)
     }
     // Compare may have increased number of components.

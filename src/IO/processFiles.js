@@ -120,8 +120,10 @@ export const readFiles = async ({
   labelImageNames,
   use2D,
 }) => {
+  console.log(files)
+  console.log(image)
   let readDICOMSeries = readImageDICOMFileSeries
-  if (files.length < 2 || !image) {
+  if (files.length < 2 || image) {
     readDICOMSeries = function() {
       return Promise.reject('Skip DICOM series read attempt')
     }
@@ -137,6 +139,7 @@ export const readFiles = async ({
       use2D: !is3D,
     }
   } catch (error) {
+    console.log(error)
     const dataSets = await readDataFromFiles(files)
     let imagesFromFiles = dataSets
       .map(({ data }) => data)

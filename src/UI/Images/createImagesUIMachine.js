@@ -50,7 +50,6 @@ const assignPiecewiseFunction = assign({
     const component = event.data.component
     const range = event.data.range
     const nodes = event.data.nodes
-
     actorContext.piecewiseFunctions.set(component, { range, nodes })
 
     return images

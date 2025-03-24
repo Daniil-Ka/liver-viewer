@@ -9,6 +9,7 @@ function applyColorRange(context, e) {
     component
   )
   colorTransferFunction.setMappingRange(range[0], range[1])
+  //colorTransferFunction.setMappingRange(0, range[1])
   colorTransferFunction.updateRange()
 
   context.service.send('RENDER')

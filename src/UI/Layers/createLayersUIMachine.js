@@ -256,7 +256,77 @@ const assignImageContext = assign({
           // If just 1 component, opacity function is irrelevant.
           points.length = 0
         }
-        actorContext.piecewiseFunctionPoints.set(component, points)
+
+        let newNodes = [
+        {
+          "x": -643.78106689453125,
+          "y": 0.0,
+          "midpoint": 0.5,
+          "sharpness": 0
+        },
+        {
+          "x": -584.65887451171875,
+          "y": 0.26931655406951904,
+          "midpoint": 0.5,
+          "sharpness": 0
+        },
+        {
+          "x": -382.65924072265625,
+          "y": 0.46969130635261536,
+          "midpoint": 0.5,
+          "sharpness": 0
+        },
+        {
+          "x": -237.65838623046875,
+          "y": 0.51899993419647217,
+          "midpoint": 0.5,
+          "sharpness": 0
+        },
+        {
+          "x": -75.40606689453125,
+          "y": 0.0,
+          "midpoint": 0.5,
+          "sharpness": 0
+        },
+        {
+          "x": 114.5941162109375,
+          "y": 0.27931660413742065,
+          "midpoint": 0.5,
+          "sharpness": 0
+        },
+        {
+          "x": 316.5936279296875,
+          "y": 0.28899994492530823,
+          "midpoint": 0.5,
+          "sharpness": 0
+        },
+        {
+          "x": 461.59375,
+          "y": 0.28899994492530823,
+          "midpoint": 0.5,
+          "sharpness": 0
+        },]
+        let formattedList = newNodes.map(node => [node.x, node.y]);
+        // Исходный диапазон значений x
+        const minOld = -1200;
+        const maxOld = 1200;
+
+        // Новый диапазон [-1, 1]
+        const minNew = 0;
+        const maxNew = 1;
+
+        // Функция для нормализации x
+        // eslint-disable-next-line no-inner-declarations
+        function normalize(x, minOld, maxOld, minNew, maxNew) {
+            return ((x - minOld) / (maxOld - minOld)) * (maxNew - minNew) + minNew;
+        }
+
+        let normalizedList = newNodes.map(node => {
+            let normalizedX = normalize(node.x, minOld, maxOld, minNew, maxNew);
+            return [normalizedX, node.y];
+        });
+        console.log(normalizedList)
+        actorContext.piecewiseFunctionPoints.set(component, normalizedList)
       }
       actorContext.colorRanges.set(component, [0.2, 0.8])
     }
