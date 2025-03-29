@@ -125,7 +125,7 @@ export const readFiles = async ({
   let readDICOMSeries = readImageDICOMFileSeries
   if (files.length < 2 || image) {
     readDICOMSeries = function() {
-      return Promise.reject('Skip DICOM series read attempt')
+      return Promise.reject('Skip DCM series read attempt')
     }
   }
   try {
