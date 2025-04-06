@@ -20,7 +20,7 @@
 
 1. Клонируйте репозиторий:
    bash
-   git clone https://github.com/your-username/itk-vtk-viewer.git
+   git clone https://github.com/Daniil-Ka/liver-viewer/tree/main
    
 2. Перейдите в директорию проекта:
    bash
