@@ -42,7 +42,7 @@
 
 ## Поддержка
 
-Если у вас возникли вопросы или проблемы, пожалуйста, создайте issue в [репозитории проекта](https://github.com/your-username/itk-vtk-viewer/issues).
+Если у вас возникли вопросы или проблемы, пожалуйста, создайте issue в [репозитории проекта](https://github.com/Daniil-Ka/liver-viewer/tree/main/issues).
 
 ## Вклад в проект
 
