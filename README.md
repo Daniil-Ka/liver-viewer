@@ -1,63 +1,49 @@
-## [ITK/VTK Viewer - Web based Image, Mesh, and Point Set Viewer](http://kitware.github.io/itk-vtk-viewer/)
+# ITK-VTK Viewer
 
-![Build and Test](https://github.com/Kitware/itk-vtk-viewer/workflows/Build%20and%20Test/badge.svg)
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-![npm-download](https://img.shields.io/npm/dm/itk-vtk-viewer.svg)
-[![](https://data.jsdelivr.com/v1/package/npm/itk-vtk-viewer/badge?style=rounded)](https://www.jsdelivr.com/package/npm/itk-vtk-viewer)
-![npm-version-requirement](https://img.shields.io/badge/npm->=8.0.0-brightgreen.svg)
-![node-version-requirement](https://img.shields.io/badge/node->=12.0.0-brightgreen.svg)
-[![launch ImJoy](https://imjoy.io/static/badge/launch-imjoy-badge.svg)](http://imjoy.io/#/app?plugin=https://kitware.github.io/itk-vtk-viewer/app/)
-[![DOI](https://zenodo.org/badge/92198432.svg)](https://zenodo.org/badge/latestdoi/92198432)
+`ITK-VTK Viewer` — это мощный инструмент для визуализации DICOM-изображений и их просмотра в 3D с поддержкой выполнения срезов и изменения цветовых схем. Основная цель проекта — облегчить исследование и анализ медицинских данных.
 
-# Introduction
+## Возможности
 
-ITK/VTK Viewer is an open-source software system for medical and
-scientific image, mesh, and point set visualization.
+- **Визуализация DICOM-изображений:** Поддержка чтения и отображения DICOM-файлов.
+- **3D Рендеринг:** Просмотр данных в трехмерном формате.
+- **Срезы:** Возможность выполнения срезов для детального исследования.
+- **Цветовые схемы:** Изменение и настройка цветовых схем для улучшения восприятия изображения.
 
-# Reporting Issues
+## Установка
 
-If you would like to discuss a bug or possible improvement:
+### Предварительные требования
 
-1. If you have a patch, please read the [CONTRIBUTING.md][] document.
+- Node.js (рекомендуется версия 14 или выше)
+- npm
 
-2. Open an entry in the [Issue Tracker][].
+### Установка
 
-[contributing.md]: CONTRIBUTING.md
-[issue tracker]: https://github.com/Kitware/itk-vtk-viewer/issues
+1. Клонируйте репозиторий:
+   bash
+   git clone https://github.com/Daniil-Ka/liver-viewer/tree/main
+   
+2. Перейдите в директорию проекта:
+   bash
+   cd itk-vtk-viewer
+   
+3. Установите зависимости:
+   bash
+   npm install
+   
+## Использование
 
-# Requirements
+1. Запустите приложение:
+   bash
+   npm start
+   
+2. Откройте браузер и перейдите по адресу `http://localhost:8085`.
 
-In general ITK/VTK Viewer tries to be as portable as possible; the specific configurations below are tested and known to work.
+3. Загрузите свои DICOM-изображения и начните просмотр
 
-ITK/VTK Viewer supports the following development environments:
+## Поддержка
 
-- Node 16+
-- NPM 8+
+Если у вас возникли вопросы или проблемы, пожалуйста, создайте issue в [репозитории проекта](https://github.com/Daniil-Ka/liver-viewer/tree/main/issues).
 
-and the following browsers:
+## Вклад в проект
 
-- Firefox
-- Chrome
-- Safari
-
-# Documentation
-
-See the [documentation](https://kitware.github.io/itk-vtk-viewer) for a
-getting started guide, advanced documentation, and API descriptions.
-
-# Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for instructions to contribute.
-
-# License
-
-ITK/VTK Viewer is distributed under the OSI-approved BSD 3-clause License.
-See [Copyright.txt][] for details.
-
-[copyright.txt]: Copyright.txt
-
-# Build Blosc with Debug
-
-Checkout `c-blosc` git submodule, then
-
-`itk-wasm --build-dir web-build build -- -DCMAKE_BUILD_TYPE=Debug`
+Если вы хотите улучшить проект или добавить новые возможности, пожалуйста, следуйте стандартному процессу fork & pull request. Мы приветствуем идеи и предложения!
